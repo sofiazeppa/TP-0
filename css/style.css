@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+}
+header img {
+	width: 100%;
+	height: auto;
+}
+.container {
+	margin: 0 3%;
+	height: 100%;
+}
+.text-email p {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 1px; 
+	font-weight: bold;
+}
+.input-email {
+	width: 63%;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin: 0 1%;
+}
+.input-email input {
+	width: 100%;
+	height: 50px;
+	border: black solid 3px;
+	padding-top: 15px;
+}
+::placeholder {
+	font-size: 250%;
+	color: gray;
+	line-height: inherit;
+} 
+.button-email {
+	width: 33%;
+	height: 60px;
+	display: inline-block;
+	margin: 0 1%;
+}
+.button-email input {
+	width: 95%;
+	height: 74px;
+	background-color: rgb(219, 168, 196);
+	border-radius: 3px;
+	border: solid rgb(219, 168, 196);
+	color: white;
+	font-size: 220%; 
+}
+.social {
+	text-align: center;
+	color: rgb(219, 168, 196);
+	font-size: 520%;
+	margin: 4% 0;
+}
+.tw , .ig , .fb {
+	display: inline-block;
+	margin: 3%;
+}
+footer {
+	text-align: center;
+	font-size: 280%;
+	margin: 15% 0;
+}
+footer a {
+	color: rgb(219, 168, 196);
+}
+@media (min-width: 800px) {
+	.enter-email {
+		margin: 0 auto;
+		margin-bottom: 0;
+		height: 50px;
+	}
+	.text-email {
+		width: 20%;
+		display: inline-block;
+		float: left;
+		margin-left: 20%;
+	}
+	.text-email p {
+		font-size: 18px; 
+		padding-left: 110px;
+	}
+	.input-email {
+		width: 15%;
+		display: inline-block;
+		float: left;
+		margin-top: 23px;
+	}
+	.input-email input {
+		width: 100%;
+		height: 8px; 
+		border: 1px solid black;
+		padding-top: 8.5px;
+		padding-bottom: 8.5px;
+	}
+	::placeholder {
+		font-size: 14px; 
+	}
+	.button-email {
+		width: 20%;
+		display: inline-block;
+		margin-right: 15%;
+		margin-top: 24px;
+		padding-right: 10px;
+	}
+	.button-email input{
+		width: 40%;
+		height: 26px;
+		font-size: 13px;
+	}
+	.social {
+		font-size: 30px;
+		margin-left: 80%;
+		margin-top: 0;
+	}
+	.tw , .ig , .fb {
+		display: inline-block;
+		margin: 3%;
+	}
+	footer {
+		font-size: 100%;
+		width: 100%;
+	}
+}
